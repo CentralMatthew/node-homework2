@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "firstName": "Maryana",
+    "lastName": "Gal",
+    "age": 18,
+    "login": "meriann",
+    "password": "meri22"
+  },
+  {
+    "id": 2,
+    "firstName": "Max",
+    "lastName": "Severyn",
+    "age": 19,
+    "login": "maxik",
+    "password": "max123"
+  },
+  {
+    "id": 3,
+    "firstName": "Dima",
+    "lastName": "Crop",
+    "age": 38,
+    "login": "dimasik",
+    "password": "dima321"
+  },
+  {
+    "id": 4,
+    "firstName": "David",
+    "lastName": "Mayer",
+    "age": 41,
+    "login": "davidson",
+    "password": "dava"
+  },
+  {
+    "id": 5,
+    "firstName": "Andrea",
+    "lastName": "Boyarskiy",
+    "age": 21,
+    "login": "andr34",
+    "password": "psw"
+  },
+  {
+    "login": "taras123",
+    "password": "123",
+    "firstName": "Taras",
+    "lastName": "Osered",
+    "age": "21",
+    "id": 6
+  },
+  {
+    "login": "tar123",
+    "password": "123",
+    "firstName": "Taras",
+    "lastName": "Osered",
+    "age": "45",
+    "id": 7
+  },
+  {
+    "login": "bog",
+    "password": "123",
+    "firstName": "Bogdan",
+    "lastName": "Martyniv",
+    "age": "18",
+    "id": 8
+  },
+  {
+    "login": "dani",
+    "password": "dana",
+    "firstName": "Daniela",
+    "lastName": "Mohita",
+    "age": "19",
+    "id": 9
+  },
+  {
+    "login": "serg",
+    "password": "ser",
+    "firstName": "Sergey",
+    "lastName": "Dzihovskiy",
+    "age": "20",
+    "id": 10
+  },
+  {
+    "login": "tanya",
+    "password": "bugogu81",
+    "firstName": "Tanya",
+    "lastName": "Zimomria",
+    "age": "20",
+    "id": 11
+  }
+]
