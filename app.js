@@ -48,16 +48,18 @@ app.get('/users/:userId', async (req, res) => {
 //----------------------------------------------------------------------------------------------------------
 
 app.post('/login', async (req, res) => {
-    const {login, password} = req.body
+    const {login, password} = req.body;
     const users = await getUsers();
     const findedUser = users.find(value => value.login === login && value.password === password);
+    const error = !findedUser;
 
     if (findedUser) {
         res.redirect(`/users/${users.indexOf(findedUser)}`);
-        return
+        return;
     }
 
-    res.render('error-login')
+
+    res.render('error',{error});
 })
 
 app.post('/registration', async (req, res) => {
@@ -68,8 +70,8 @@ app.post('/registration', async (req, res) => {
 
     const userExist = users.find(value => value.login === login);
     if (userExist) {
-        res.render('error-registration');
-        return
+        res.render('error',{userExist});
+        return;
     }
 
     users.push(newUser);
